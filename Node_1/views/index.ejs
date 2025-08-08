@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title> <!-- Dynamically sets the page title -->
+</head>
+<body>
+  <h1><%= message %></h1> <!-- Displays dynamic message, e.g., "Hello, Prath!" -->
+
+  <ul>
+    <% items.forEach(function(item) { %>  <!-- Loops over the 'items' array -->
+      <li><%= item %></li>                <!-- Displays each item in a <li> -->
+    <% }); %>
+  </ul>
+</body>
+</html>
